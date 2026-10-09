@@ -1,0 +1,80 @@
+While
+ comparison
+  idnum:#a
+  le
+  idnum:#b
+ body
+
+While
+ comparison
+  idnum:#a
+  leq
+  idnum:#b
+ body
+
+While
+ comparison
+  idnum:#a
+  gre
+  idnum:#b
+ body
+
+While
+ comparison
+  idnum:#a
+  geq
+  idnum:#b
+ body
+
+While
+ comparison
+  idnum:#a
+  eq
+  idnum:#b
+ body
+
+While
+ comparison
+  idnum:#a
+  neq
+  idnum:#b
+ body
+
+While
+ comparison
+  idnum:#a
+  in
+  idvec:v_b
+ body
+
+While
+ comparison
+  idnum:#a
+  notin
+  idvec:v_b
+ body
+
+Return
+ FALSE
+
+Return
+ TRUE
+
+While
+ not
+  comparison
+   number:1
+   le
+   number:2
+ body
+
+While
+ not
+  not
+   not
+    comparison
+     number:1
+     le
+     number:2
+ body
+

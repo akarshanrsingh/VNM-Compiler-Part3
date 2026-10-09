@@ -1,0 +1,22 @@
+// Test list structures with 0 or more children
+
+// exp_list and body
+for #i =in 1,2,3,4,5 do end;
+while 1<2 do print "hello"; end;
+while 1<2 do print "hello"; print "world"; println "bye"; println "for now"; end;
+
+// clause
+if 1<2 then print "hello"; else print "world"; println "bye"; println "for now"; fi;
+
+//Variable declarations and parameters in function declarations
+var v_X;
+var ?a,#b,?C;
+function v_a() end;
+function ?B(#x) end;
+function #c(#x,#Y,#Z) end;
+
+// parameters as value lists
+#f();
+#f(1);
+#f(1,2,3,4,5);
+

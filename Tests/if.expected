@@ -1,0 +1,76 @@
+If
+ comparison
+  idnum:#a
+  eq
+  idnum:#b
+ clause
+  Print_ln
+ NULL
+
+If
+ comparison
+  idnum:#a
+  eq
+  idnum:#b
+ clause
+  Print_ln
+ clause
+  Print_ln
+
+If
+ comparison
+  idnum:#a
+  eq
+  idnum:#b
+ clause
+  Print_ln
+ If
+  comparison
+   idnum:#c
+   le
+   idnum:#d
+  clause
+   Print_ln
+  NULL
+
+If
+ comparison
+  idnum:#a
+  eq
+  idnum:#b
+ clause
+  Print_ln
+ If
+  comparison
+   idnum:#c
+   le
+   idnum:#d
+  clause
+   Print_ln
+  clause
+   Print_ln
+
+If
+ comparison
+  idnum:#a
+  eq
+  idnum:#b
+ clause
+  Print_ln
+ If
+  comparison
+   idnum:#c
+   le
+   idnum:#d
+  clause
+   Print_ln
+  If
+   comparison
+    idnum:#e
+    gre
+    idnum:#f
+   clause
+    Print_ln
+   clause
+    Print_ln
+

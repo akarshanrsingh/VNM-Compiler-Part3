@@ -1,0 +1,16 @@
+// Test Boolean operators
+// Elimination of unnecessary nodes
+while #a==1 & #b==2 do end;
+while #a==1 | #b==2 do end;
+while ! #a==1 do end;
+while ! ! ! #b==2 do end;
+
+// repeat operators
+while #a==1 & #b==2 & #c==3 & #d==4 do end;
+while #a==1 | #b==2 | #c==3 | #d==4 do end;
+
+// Precedence not damaged 
+while #a==1 & #b==2 | ! #c==3 do end;
+while ! #a==1 & #b==2 | #c==3 do end;
+while ! (#a==1 & (#b==2 | #c==3)) do end;
+

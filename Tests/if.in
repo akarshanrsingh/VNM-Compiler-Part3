@@ -1,0 +1,6 @@
+// Test if statements
+if #a==#b then println; fi;
+if #a==#b then println; else println; fi;
+if #a==#b then println; elif #c<#d then println; fi;
+if #a==#b then println; elif #c<#d then println; else println; fi;
+if #a==#b then println; elif #c<#d then println; elif #e>#f then println; else println; fi;

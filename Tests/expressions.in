@@ -1,0 +1,26 @@
+// Test sums and products
+// First simple products, divisions, and mods
+#a*#b;
+#a/#b;
+#a*#b*#c;
+#a*#b/#c*#d/#e*#f/#g;
+
+// Test simple sums and differences
+#a;
++#b;
+-#c;
++#a-#b;
+#a+#b;
+-#a+#b;
+#a+#b-#c-#d+#e-#f+#g;
+-#a+#b-#c-#d+#e-#f+#g;
+
+// Test parentheses 
+(#a);
+(#a*#b)/(#c*#d)/(#e*#f)*#g;
+
+// Test combination of sums and products
+#a*#b+#c/#d;
+(#a*#b)+(#c/#d);
+#a*(#b+#c)/#d;
+(#a+#b)*((#c-#d)/(-#e*#f));

@@ -1,0 +1,93 @@
+For
+ idnum:#i
+ exp_list
+  number:1
+  number:2
+  number:3
+  number:4
+  number:5
+ body
+
+While
+ comparison
+  number:1
+  le
+  number:2
+ body
+  Print
+   string:hello
+
+While
+ comparison
+  number:1
+  le
+  number:2
+ body
+  Print
+   string:hello
+  Print
+   string:world
+  Print_ln
+   string:bye
+  Print_ln
+   string:for now
+
+If
+ comparison
+  number:1
+  le
+  number:2
+ clause
+  Print
+   string:hello
+ clause
+  Print
+   string:world
+  Print_ln
+   string:bye
+  Print_ln
+   string:for now
+
+var_decl
+ idvec:v_X
+
+var_decl
+ idbool:?a
+ idnum:#b
+ idbool:?C
+
+fn_decl
+ idvec:v_a
+ body
+
+fn_decl
+ idbool:?B
+ ident_list
+  idnum:#x
+ body
+
+fn_decl
+ idnum:#c
+ ident_list
+  idnum:#x
+  idnum:#Y
+  idnum:#Z
+ body
+
+fn_call
+ idnum:#f
+
+fn_call
+ idnum:#f
+ exp_list
+  number:1
+
+fn_call
+ idnum:#f
+ exp_list
+  number:1
+  number:2
+  number:3
+  number:4
+  number:5
+

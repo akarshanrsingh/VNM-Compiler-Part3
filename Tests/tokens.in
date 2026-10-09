@@ -1,0 +1,7 @@
+// Test the nodification of tokens with values
+#thisisanidnum;
+v_Thisisanid;
+print ?thisisanidbool;
+100;
+print "hello";
+

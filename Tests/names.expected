@@ -1,0 +1,23 @@
+Assign
+ idbool:?a
+ TRUE
+
+Return
+ number:1
+
+Print
+ number:1
+
+Print_ln
+ number:1
+
+While
+ TRUE
+ body
+
+For
+ idnum:#i
+ exp_list
+  idvec:v_N
+ body
+

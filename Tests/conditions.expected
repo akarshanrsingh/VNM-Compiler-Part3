@@ -1,0 +1,136 @@
+While
+ and
+  comparison
+   idnum:#a
+   eq
+   number:1
+  comparison
+   idnum:#b
+   eq
+   number:2
+ body
+
+While
+ or
+  comparison
+   idnum:#a
+   eq
+   number:1
+  comparison
+   idnum:#b
+   eq
+   number:2
+ body
+
+While
+ not
+  comparison
+   idnum:#a
+   eq
+   number:1
+ body
+
+While
+ not
+  not
+   not
+    comparison
+     idnum:#b
+     eq
+     number:2
+ body
+
+While
+ and
+  comparison
+   idnum:#a
+   eq
+   number:1
+  comparison
+   idnum:#b
+   eq
+   number:2
+  comparison
+   idnum:#c
+   eq
+   number:3
+  comparison
+   idnum:#d
+   eq
+   number:4
+ body
+
+While
+ or
+  comparison
+   idnum:#a
+   eq
+   number:1
+  comparison
+   idnum:#b
+   eq
+   number:2
+  comparison
+   idnum:#c
+   eq
+   number:3
+  comparison
+   idnum:#d
+   eq
+   number:4
+ body
+
+While
+ or
+  and
+   comparison
+    idnum:#a
+    eq
+    number:1
+   comparison
+    idnum:#b
+    eq
+    number:2
+  not
+   comparison
+    idnum:#c
+    eq
+    number:3
+ body
+
+While
+ or
+  and
+   not
+    comparison
+     idnum:#a
+     eq
+     number:1
+   comparison
+    idnum:#b
+    eq
+    number:2
+  comparison
+   idnum:#c
+   eq
+   number:3
+ body
+
+While
+ not
+  and
+   comparison
+    idnum:#a
+    eq
+    number:1
+   or
+    comparison
+     idnum:#b
+     eq
+     number:2
+    comparison
+     idnum:#c
+     eq
+     number:3
+ body
+

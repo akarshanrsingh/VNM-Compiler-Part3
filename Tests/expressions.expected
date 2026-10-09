@@ -1,0 +1,142 @@
+mul
+ idnum:#a
+ idnum:#b
+
+div
+ idnum:#a
+ idnum:#b
+
+mul
+ mul
+  idnum:#a
+  idnum:#b
+ idnum:#c
+
+div
+ mul
+  div
+   mul
+    div
+     mul
+      idnum:#a
+      idnum:#b
+     idnum:#c
+    idnum:#d
+   idnum:#e
+  idnum:#f
+ idnum:#g
+
+idnum:#a
+
+idnum:#b
+
+sum
+ neg
+  idnum:#c
+
+sum
+ idnum:#a
+ neg
+  idnum:#b
+
+sum
+ idnum:#a
+ pos
+  idnum:#b
+
+sum
+ neg
+  idnum:#a
+ pos
+  idnum:#b
+
+sum
+ idnum:#a
+ pos
+  idnum:#b
+ neg
+  idnum:#c
+ neg
+  idnum:#d
+ pos
+  idnum:#e
+ neg
+  idnum:#f
+ pos
+  idnum:#g
+
+sum
+ neg
+  idnum:#a
+ pos
+  idnum:#b
+ neg
+  idnum:#c
+ neg
+  idnum:#d
+ pos
+  idnum:#e
+ neg
+  idnum:#f
+ pos
+  idnum:#g
+
+idnum:#a
+
+mul
+ div
+  div
+   mul
+    idnum:#a
+    idnum:#b
+   mul
+    idnum:#c
+    idnum:#d
+  mul
+   idnum:#e
+   idnum:#f
+ idnum:#g
+
+sum
+ mul
+  idnum:#a
+  idnum:#b
+ pos
+  div
+   idnum:#c
+   idnum:#d
+
+sum
+ mul
+  idnum:#a
+  idnum:#b
+ pos
+  div
+   idnum:#c
+   idnum:#d
+
+div
+ mul
+  idnum:#a
+  sum
+   idnum:#b
+   pos
+    idnum:#c
+ idnum:#d
+
+mul
+ sum
+  idnum:#a
+  pos
+   idnum:#b
+ div
+  sum
+   idnum:#c
+   neg
+    idnum:#d
+  sum
+   neg
+    mul
+     idnum:#e
+     idnum:#f
+

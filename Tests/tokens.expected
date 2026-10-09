@@ -1,0 +1,12 @@
+idnum:#thisisanidnum
+
+idvec:v_Thisisanid
+
+Print
+ idbool:?thisisanidbool
+
+number:100
+
+Print
+ string:hello
+
