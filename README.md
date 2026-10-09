@@ -256,6 +256,7 @@ cd VNM-Compiler-Part3
 ### Compile the Project
 bash
 make
+
 The build process uses JJTree, JavaCC, and the Java compiler to generate the required parser and AST components.
 
 ### Run the Parser
