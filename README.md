@@ -250,6 +250,7 @@ The supplied Makefile was designed for the CPS710 course environment and may req
 ### Clone the Repository
 bash
 git clone https://github.com/akarshanrsingh/VNM-Compiler-Part3.git
+
 cd VNM-Compiler-Part3
 
 ### Compile the Project
